@@ -17,6 +17,7 @@
             
             <asp:TextBox ID="txtDisplay" runat="server"></asp:TextBox>
             <asp:Button ID="btnClick" runat="server" Text="클릭" OnClick="btnClick_Click" />
+            <asp:Button ID="btnOutput" runat="server" Text="종료" OnClick="btnOutput_Click" />
         </div>
     </form>
 </body>
