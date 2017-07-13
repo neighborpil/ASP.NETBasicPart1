@@ -94,9 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmRequest.aspx" />
+    <Content Include="FrmRequestUserHostAddress.aspx" />
     <Content Include="FrmResponseBuffer.aspx" />
     <Content Include="FrmResponseRedirect.aspx" />
     <Content Include="FrmResponseWrite.aspx" />
+    <Content Include="FrmServerMapPath.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -120,6 +123,20 @@
     <Compile Include="FrmASPNET5.aspx.designer.cs">
       <DependentUpon>FrmASPNET5.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmRequest.aspx.cs">
+      <DependentUpon>FrmRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRequest.aspx.designer.cs">
+      <DependentUpon>FrmRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.designer.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmResponseBuffer.aspx.cs">
       <DependentUpon>FrmResponseBuffer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +157,13 @@
     </Compile>
     <Compile Include="FrmResponseWrite.aspx.designer.cs">
       <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.designer.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
