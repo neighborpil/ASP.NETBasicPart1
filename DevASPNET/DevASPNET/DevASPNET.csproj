@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmApplicationSession.aspx" />
+    <Content Include="FrmPageLoad.aspx" />
     <Content Include="FrmRequest.aspx" />
     <Content Include="FrmRequestUserHostAddress.aspx" />
     <Content Include="FrmResponseBuffer.aspx" />
@@ -116,12 +118,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmApplicationSession.aspx.cs">
+      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmApplicationSession.aspx.designer.cs">
+      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmASPNET5.aspx.cs">
       <DependentUpon>FrmASPNET5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmASPNET5.aspx.designer.cs">
       <DependentUpon>FrmASPNET5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPageLoad.aspx.cs">
+      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPageLoad.aspx.designer.cs">
+      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmRequest.aspx.cs">
       <DependentUpon>FrmRequest.aspx</DependentUpon>
