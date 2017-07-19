@@ -13,6 +13,9 @@
             <div>
                 <asp:Label ID="lblServerName" runat="server" Text="Label"></asp:Label>
             </div>
+            <div>
+                쿼리 들어오는 곳
+            </div>
         </div>
     </div>
     </form>

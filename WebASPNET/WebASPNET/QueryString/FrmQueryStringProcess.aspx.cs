@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Drawing;
 
 namespace WebASPNET.QueryString
 {
@@ -20,6 +16,16 @@ namespace WebASPNET.QueryString
             else
             {
                 lblServerName.Text = "넘겨온 값 X";
+            }
+
+            if(Request.QueryString["Color"] != null)
+            {
+                if(Request.QueryString["Color"] == "Red")
+                {
+                    lblServerName.ForeColor = Color.Red;
+
+                }
+
             }
         }
     }
