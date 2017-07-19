@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="QueryString\FrmQueryString.aspx" />
+    <Content Include="FrmRequest.aspx" />
+    <Content Include="FrmRequestUserHostAddress.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,10 +111,32 @@
   <ItemGroup>
     <Content Include="FrmResponseBuffer.aspx" />
     <Content Include="FrmResponseRedirect.aspx" />
+    <Content Include="QueryString\FrmQueryStringProcess.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QueryString\FrmQueryString.aspx.cs">
+      <DependentUpon>FrmQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryString\FrmQueryString.aspx.designer.cs">
+      <DependentUpon>FrmQueryString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRequest.aspx.cs">
+      <DependentUpon>FrmRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRequest.aspx.designer.cs">
+      <DependentUpon>FrmRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRequestUserHostAddress.aspx.designer.cs">
+      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmResponseBuffer.aspx.cs">
       <DependentUpon>FrmResponseBuffer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +152,13 @@
       <DependentUpon>FrmResponseRedirect.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryString\FrmQueryStringProcess.aspx.cs">
+      <DependentUpon>FrmQueryStringProcess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryString\FrmQueryStringProcess.aspx.designer.cs">
+      <DependentUpon>FrmQueryStringProcess.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
