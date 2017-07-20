@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmApplicationSession.aspx" />
+    <Content Include="FrmServerExecute.aspx" />
     <Content Include="QueryString\FrmQueryString.aspx" />
     <Content Include="FrmRequest.aspx" />
     <Content Include="FrmRequestUserHostAddress.aspx" />
@@ -112,10 +114,25 @@
     <Content Include="FrmResponseBuffer.aspx" />
     <Content Include="FrmResponseRedirect.aspx" />
     <Content Include="QueryString\FrmQueryStringProcess.aspx" />
+    <Content Include="FrmServerMapPath.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmApplicationSession.aspx.cs">
+      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmApplicationSession.aspx.designer.cs">
+      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServerExecute.aspx.cs">
+      <DependentUpon>FrmServerExecute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmServerExecute.aspx.designer.cs">
+      <DependentUpon>FrmServerExecute.aspx</DependentUpon>
+    </Compile>
     <Compile Include="QueryString\FrmQueryString.aspx.cs">
       <DependentUpon>FrmQueryString.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,6 +175,13 @@
     </Compile>
     <Compile Include="QueryString\FrmQueryStringProcess.aspx.designer.cs">
       <DependentUpon>FrmQueryStringProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.designer.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
