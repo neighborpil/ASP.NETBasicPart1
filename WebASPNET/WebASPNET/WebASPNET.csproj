@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="FrmApplicationSession.aspx" />
     <Content Include="FrmServerExecute.aspx" />
+    <Content Include="PageLoad.aspx" />
     <Content Include="QueryString\FrmQueryString.aspx" />
     <Content Include="FrmRequest.aspx" />
     <Content Include="FrmRequestUserHostAddress.aspx" />
@@ -103,6 +104,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="WebPageEvent.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,6 +134,13 @@
     </Compile>
     <Compile Include="FrmServerExecute.aspx.designer.cs">
       <DependentUpon>FrmServerExecute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageLoad.aspx.cs">
+      <DependentUpon>PageLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageLoad.aspx.designer.cs">
+      <DependentUpon>PageLoad.aspx</DependentUpon>
     </Compile>
     <Compile Include="QueryString\FrmQueryString.aspx.cs">
       <DependentUpon>FrmQueryString.aspx</DependentUpon>
@@ -189,6 +198,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPageEvent.aspx.cs">
+      <DependentUpon>WebPageEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPageEvent.aspx.designer.cs">
+      <DependentUpon>WebPageEvent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
