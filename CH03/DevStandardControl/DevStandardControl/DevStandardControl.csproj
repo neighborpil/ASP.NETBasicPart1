@@ -94,7 +94,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmButton.aspx" />
+    <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmControl.aspx" />
+    <Content Include="FrmHyperLink.aspx" />
+    <Content Include="FrmImage.aspx" />
+    <Content Include="FrmImageButton.aspx" />
+    <Content Include="FrmLabel.aspx" />
+    <Content Include="FrmTextBox.aspx" />
+    <Content Include="img\cat.png" />
+    <Content Include="img\cat2.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -112,6 +121,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmButton.aspx.cs">
+      <DependentUpon>FrmButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmButton.aspx.designer.cs">
+      <DependentUpon>FrmButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommandControl.aspx.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCommandControl.aspx.designer.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmControl.aspx.cs">
       <DependentUpon>FrmControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,12 +142,47 @@
     <Compile Include="FrmControl.aspx.designer.cs">
       <DependentUpon>FrmControl.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmHyperLink.aspx.cs">
+      <DependentUpon>FrmHyperLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmHyperLink.aspx.designer.cs">
+      <DependentUpon>FrmHyperLink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImage.aspx.cs">
+      <DependentUpon>FrmImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImage.aspx.designer.cs">
+      <DependentUpon>FrmImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImageButton.aspx.cs">
+      <DependentUpon>FrmImageButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImageButton.aspx.designer.cs">
+      <DependentUpon>FrmImageButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLabel.aspx.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLabel.aspx.designer.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.designer.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTextBox.aspx.cs">
+      <DependentUpon>FrmTextBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmTextBox.aspx.designer.cs">
+      <DependentUpon>FrmTextBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
