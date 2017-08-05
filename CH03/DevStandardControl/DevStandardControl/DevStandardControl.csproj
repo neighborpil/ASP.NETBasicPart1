@@ -100,6 +100,7 @@
     <Content Include="FrmHyperLink.aspx" />
     <Content Include="FrmImage.aspx" />
     <Content Include="FrmImageButton.aspx" />
+    <Content Include="FrmImageMap.aspx" />
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="img\cat.png" />
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="FrmImageButton.aspx.designer.cs">
       <DependentUpon>FrmImageButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImageMap.aspx.cs">
+      <DependentUpon>FrmImageMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImageMap.aspx.designer.cs">
+      <DependentUpon>FrmImageMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmLabel.aspx.cs">
       <DependentUpon>FrmLabel.aspx</DependentUpon>
