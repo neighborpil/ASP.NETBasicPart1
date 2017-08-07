@@ -109,6 +109,7 @@
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmListBox.aspx" />
     <Content Include="FrmRadioButton.aspx" />
+    <Content Include="FrmRadioButtonList.aspx" />
     <Content Include="FrmTable.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="img\cat.png" />
@@ -234,6 +235,13 @@
     </Compile>
     <Compile Include="FrmRadioButton.aspx.designer.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadioButtonList.aspx.cs">
+      <DependentUpon>FrmRadioButtonList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRadioButtonList.aspx.designer.cs">
+      <DependentUpon>FrmRadioButtonList.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
