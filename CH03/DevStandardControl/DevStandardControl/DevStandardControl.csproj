@@ -96,6 +96,8 @@
   <ItemGroup>
     <Content Include="FrmBulletedList.aspx" />
     <Content Include="FrmButton.aspx" />
+    <Content Include="FrmCheckboxControl.aspx" />
+    <Content Include="FrmCheckBoxList.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmControl.aspx" />
     <Content Include="FrmDropDownList2.aspx" />
@@ -106,6 +108,7 @@
     <Content Include="FrmImageMap.aspx" />
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmListBox.aspx" />
+    <Content Include="FrmRadioButton.aspx" />
     <Content Include="FrmTable.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="img\cat.png" />
@@ -140,6 +143,20 @@
     </Compile>
     <Compile Include="FrmButton.aspx.designer.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckboxControl.aspx.cs">
+      <DependentUpon>FrmCheckboxControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCheckboxControl.aspx.designer.cs">
+      <DependentUpon>FrmCheckboxControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckBoxList.aspx.cs">
+      <DependentUpon>FrmCheckBoxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCheckBoxList.aspx.designer.cs">
+      <DependentUpon>FrmCheckBoxList.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmCommandControl.aspx.cs">
       <DependentUpon>FrmCommandControl.aspx</DependentUpon>
@@ -210,6 +227,13 @@
     </Compile>
     <Compile Include="FrmListBox.aspx.designer.cs">
       <DependentUpon>FrmListBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadioButton.aspx.cs">
+      <DependentUpon>FrmRadioButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRadioButton.aspx.designer.cs">
+      <DependentUpon>FrmRadioButton.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
