@@ -94,14 +94,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmBulletedList.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmControl.aspx" />
+    <Content Include="FrmDropDownList2.aspx" />
+    <Content Include="FrmDrowDownList_PhoneNumber.aspx" />
     <Content Include="FrmHyperLink.aspx" />
     <Content Include="FrmImage.aspx" />
     <Content Include="FrmImageButton.aspx" />
     <Content Include="FrmImageMap.aspx" />
     <Content Include="FrmLabel.aspx" />
+    <Content Include="FrmListBox.aspx" />
+    <Content Include="FrmTable.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="img\cat.png" />
     <Content Include="img\cat2.jpg" />
@@ -122,6 +127,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBulletedList.aspx.cs">
+      <DependentUpon>FrmBulletedList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmBulletedList.aspx.designer.cs">
+      <DependentUpon>FrmBulletedList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmButton.aspx.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -142,6 +154,20 @@
     </Compile>
     <Compile Include="FrmControl.aspx.designer.cs">
       <DependentUpon>FrmControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDropDownList2.aspx.cs">
+      <DependentUpon>FrmDropDownList2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmDropDownList2.aspx.designer.cs">
+      <DependentUpon>FrmDropDownList2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrowDownList_PhoneNumber.aspx.cs">
+      <DependentUpon>FrmDrowDownList_PhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmDrowDownList_PhoneNumber.aspx.designer.cs">
+      <DependentUpon>FrmDrowDownList_PhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmHyperLink.aspx.cs">
       <DependentUpon>FrmHyperLink.aspx</DependentUpon>
@@ -178,12 +204,26 @@
     <Compile Include="FrmLabel.aspx.designer.cs">
       <DependentUpon>FrmLabel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmListBox.aspx.cs">
+      <DependentUpon>FrmListBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmListBox.aspx.designer.cs">
+      <DependentUpon>FrmListBox.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.designer.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTable.aspx.cs">
+      <DependentUpon>FrmTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmTable.aspx.designer.cs">
+      <DependentUpon>FrmTable.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmTextBox.aspx.cs">
       <DependentUpon>FrmTextBox.aspx</DependentUpon>
