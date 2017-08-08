@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/cat.png</ImageUrl>
+    <NavigateUrl>http://www.daum.net/</NavigateUrl>
+    <AlternateText>다음</AlternateText>
+    <Keyword>다음</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/cat2.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>구글</AlternateText>
+    <Keyword>rnrmf</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/cat3.jpg</ImageUrl>
+    <NavigateUrl>http://www.yahoo.co.jp</NavigateUrl>
+    <AlternateText>야후</AlternateText>
+    <Keyword>야후</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/cat4.jpg</ImageUrl>
+    <NavigateUrl>comic.naver.com</NavigateUrl>
+    <AlternateText>웹툰</AlternateText>
+    <Keyword>웹툰</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+</Advertisements>

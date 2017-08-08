@@ -94,15 +94,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmAdRotator.aspx" />
+    <Content Include="FrmAdRotator.xml" />
     <Content Include="FrmBulletedList.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCalendar.aspx" />
+    <Content Include="FrmCalendarQueryString.aspx" />
     <Content Include="FrmCheckboxControl.aspx" />
     <Content Include="FrmCheckBoxList.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmControl.aspx" />
     <Content Include="FrmDropDownList2.aspx" />
     <Content Include="FrmDrowDownList_PhoneNumber.aspx" />
+    <Content Include="FrmFileUpload.aspx" />
+    <Content Include="FrmFileUploadWithFileNumber.aspx" />
+    <Content Include="FrmFileUploadWithSize.aspx" />
     <Content Include="FrmHiddenField.aspx" />
     <Content Include="FrmHyperLink.aspx" />
     <Content Include="FrmImage.aspx" />
@@ -117,6 +123,9 @@
     <Content Include="FrmTextBox.aspx" />
     <Content Include="img\cat.png" />
     <Content Include="img\cat2.jpg" />
+    <Content Include="img\cat3.jpg" />
+    <Content Include="img\cat4.jpg" />
+    <Content Include="img\cat5.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -134,6 +143,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAdRotator.aspx.cs">
+      <DependentUpon>FrmAdRotator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmAdRotator.aspx.designer.cs">
+      <DependentUpon>FrmAdRotator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmBulletedList.aspx.cs">
       <DependentUpon>FrmBulletedList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,6 +170,13 @@
     </Compile>
     <Compile Include="FrmCalendar.aspx.designer.cs">
       <DependentUpon>FrmCalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCalendarQueryString.aspx.cs">
+      <DependentUpon>FrmCalendarQueryString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCalendarQueryString.aspx.designer.cs">
+      <DependentUpon>FrmCalendarQueryString.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmCheckboxControl.aspx.cs">
       <DependentUpon>FrmCheckboxControl.aspx</DependentUpon>
@@ -196,6 +219,27 @@
     </Compile>
     <Compile Include="FrmDrowDownList_PhoneNumber.aspx.designer.cs">
       <DependentUpon>FrmDrowDownList_PhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFileUpload.aspx.cs">
+      <DependentUpon>FrmFileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFileUpload.aspx.designer.cs">
+      <DependentUpon>FrmFileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFileUploadWithFileNumber.aspx.cs">
+      <DependentUpon>FrmFileUploadWithFileNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFileUploadWithFileNumber.aspx.designer.cs">
+      <DependentUpon>FrmFileUploadWithFileNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFileUploadWithSize.aspx.cs">
+      <DependentUpon>FrmFileUploadWithSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFileUploadWithSize.aspx.designer.cs">
+      <DependentUpon>FrmFileUploadWithSize.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmHiddenField.aspx.cs">
       <DependentUpon>FrmHiddenField.aspx</DependentUpon>
@@ -295,7 +339,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="files\" />
+    <Folder Include="Icons\" />
     <Folder Include="Models\" />
+    <Folder Include="MyFiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
