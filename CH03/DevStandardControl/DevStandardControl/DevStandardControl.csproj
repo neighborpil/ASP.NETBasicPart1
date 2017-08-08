@@ -118,6 +118,7 @@
     <Content Include="FrmListBox.aspx" />
     <Content Include="FrmLiteral.aspx" />
     <Content Include="FrmMultiView.aspx" />
+    <Content Include="FrmMultiView_View.aspx" />
     <Content Include="FrmRadioButton.aspx" />
     <Content Include="FrmRadioButtonList.aspx" />
     <Content Include="FrmTable.aspx" />
@@ -308,6 +309,13 @@
     </Compile>
     <Compile Include="FrmMultiView.aspx.designer.cs">
       <DependentUpon>FrmMultiView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMultiView_View.aspx.cs">
+      <DependentUpon>FrmMultiView_View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmMultiView_View.aspx.designer.cs">
+      <DependentUpon>FrmMultiView_View.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmRadioButton.aspx.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
