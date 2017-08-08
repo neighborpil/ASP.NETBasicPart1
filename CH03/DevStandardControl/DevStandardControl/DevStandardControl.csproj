@@ -117,10 +117,15 @@
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmListBox.aspx" />
     <Content Include="FrmLiteral.aspx" />
+    <Content Include="FrmMultiView.aspx" />
     <Content Include="FrmRadioButton.aspx" />
     <Content Include="FrmRadioButtonList.aspx" />
     <Content Include="FrmTable.aspx" />
     <Content Include="FrmTextBox.aspx" />
+    <Content Include="FrmWizard.aspx" />
+    <Content Include="FrmXml.aspx" />
+    <Content Include="FrmXml.xml" />
+    <Content Include="FrmXml.xsl" />
     <Content Include="img\cat.png" />
     <Content Include="img\cat2.jpg" />
     <Content Include="img\cat3.jpg" />
@@ -297,6 +302,13 @@
     <Compile Include="FrmLiteral.aspx.designer.cs">
       <DependentUpon>FrmLiteral.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmMultiView.aspx.cs">
+      <DependentUpon>FrmMultiView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmMultiView.aspx.designer.cs">
+      <DependentUpon>FrmMultiView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmRadioButton.aspx.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -331,6 +343,20 @@
     </Compile>
     <Compile Include="FrmTextBox.aspx.designer.cs">
       <DependentUpon>FrmTextBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWizard.aspx.cs">
+      <DependentUpon>FrmWizard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmWizard.aspx.designer.cs">
+      <DependentUpon>FrmWizard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXml.aspx.cs">
+      <DependentUpon>FrmXml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmXml.aspx.designer.cs">
+      <DependentUpon>FrmXml.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
