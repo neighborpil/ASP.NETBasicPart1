@@ -94,8 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BoardSearchForm.aspx" />
     <Content Include="FrmAdRotator.aspx" />
     <Content Include="FrmAdRotator.xml" />
+    <Content Include="FrmBoardSearch.aspx" />
     <Content Include="FrmBulletedList.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCalendar.aspx" />
@@ -119,6 +121,8 @@
     <Content Include="FrmLiteral.aspx" />
     <Content Include="FrmMultiView.aspx" />
     <Content Include="FrmMultiView_View.aspx" />
+    <Content Include="FrmPanel.aspx" />
+    <Content Include="FrmPlaceHolder.aspx" />
     <Content Include="FrmRadioButton.aspx" />
     <Content Include="FrmRadioButtonList.aspx" />
     <Content Include="FrmTable.aspx" />
@@ -127,6 +131,7 @@
     <Content Include="FrmXml.aspx" />
     <Content Include="FrmXml.xml" />
     <Content Include="FrmXml.xsl" />
+    <Content Include="img\Banner.png" />
     <Content Include="img\cat.png" />
     <Content Include="img\cat2.jpg" />
     <Content Include="img\cat3.jpg" />
@@ -149,12 +154,26 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoardSearchForm.aspx.cs">
+      <DependentUpon>BoardSearchForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoardSearchForm.aspx.designer.cs">
+      <DependentUpon>BoardSearchForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmAdRotator.aspx.cs">
       <DependentUpon>FrmAdRotator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmAdRotator.aspx.designer.cs">
       <DependentUpon>FrmAdRotator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBoardSearch.aspx.cs">
+      <DependentUpon>FrmBoardSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmBoardSearch.aspx.designer.cs">
+      <DependentUpon>FrmBoardSearch.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmBulletedList.aspx.cs">
       <DependentUpon>FrmBulletedList.aspx</DependentUpon>
@@ -316,6 +335,20 @@
     </Compile>
     <Compile Include="FrmMultiView_View.aspx.designer.cs">
       <DependentUpon>FrmMultiView_View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPanel.aspx.cs">
+      <DependentUpon>FrmPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPanel.aspx.designer.cs">
+      <DependentUpon>FrmPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlaceHolder.aspx.cs">
+      <DependentUpon>FrmPlaceHolder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPlaceHolder.aspx.designer.cs">
+      <DependentUpon>FrmPlaceHolder.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmRadioButton.aspx.cs">
       <DependentUpon>FrmRadioButton.aspx</DependentUpon>
