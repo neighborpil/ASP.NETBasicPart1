@@ -29,9 +29,9 @@
 
         </asp:panel>
 </div>
-<%
+<%--<%
     if (!string.IsNullOrEmpty(Request["SearchQuery"]) && !string.IsNullOrEmpty(Request["SearchField"]))
-    {
+    { 
 %>
 <div style="text-align: center;">
     <a href="<% //Request.ServerVariables["SCRIPT_NAME"] %>?BoardName=<%=//TableName %>&Page=1"><span style="font-size: 9pt;">[검색 완료]</span></a>
@@ -39,4 +39,4 @@
 
 <%
     }
-%>
+%>--%>

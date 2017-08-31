@@ -125,6 +125,7 @@
     <Content Include="FrmPlaceHolder.aspx" />
     <Content Include="FrmRadioButton.aspx" />
     <Content Include="FrmRadioButtonList.aspx" />
+    <Content Include="FrmSubstitution.aspx" />
     <Content Include="FrmTable.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="FrmWizard.aspx" />
@@ -370,6 +371,13 @@
     </Compile>
     <Compile Include="FrmStandardControl.aspx.designer.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSubstitution.aspx.cs">
+      <DependentUpon>FrmSubstitution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmSubstitution.aspx.designer.cs">
+      <DependentUpon>FrmSubstitution.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmTable.aspx.cs">
       <DependentUpon>FrmTable.aspx</DependentUpon>
