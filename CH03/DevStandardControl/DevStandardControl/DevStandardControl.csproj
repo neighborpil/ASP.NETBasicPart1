@@ -107,6 +107,7 @@
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmControl.aspx" />
     <Content Include="FrmDropDownList2.aspx" />
+    <Content Include="FrmDropDownListDynamicCreation.aspx" />
     <Content Include="FrmDrowDownList_PhoneNumber.aspx" />
     <Content Include="FrmFileUpload.aspx" />
     <Content Include="FrmFileUploadWithFileNumber.aspx" />
@@ -119,6 +120,7 @@
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmListBox.aspx" />
     <Content Include="FrmLiteral.aspx" />
+    <Content Include="FrmLocalize.aspx" />
     <Content Include="FrmMultiView.aspx" />
     <Content Include="FrmMultiView_View.aspx" />
     <Content Include="FrmPanel.aspx" />
@@ -239,6 +241,13 @@
     <Compile Include="FrmDropDownList2.aspx.designer.cs">
       <DependentUpon>FrmDropDownList2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmDropDownListDynamicCreation.aspx.cs">
+      <DependentUpon>FrmDropDownListDynamicCreation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmDropDownListDynamicCreation.aspx.designer.cs">
+      <DependentUpon>FrmDropDownListDynamicCreation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmDrowDownList_PhoneNumber.aspx.cs">
       <DependentUpon>FrmDrowDownList_PhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -322,6 +331,13 @@
     </Compile>
     <Compile Include="FrmLiteral.aspx.designer.cs">
       <DependentUpon>FrmLiteral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocalize.aspx.cs">
+      <DependentUpon>FrmLocalize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLocalize.aspx.designer.cs">
+      <DependentUpon>FrmLocalize.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmMultiView.aspx.cs">
       <DependentUpon>FrmMultiView.aspx</DependentUpon>
@@ -434,7 +450,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1854</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1854/</IISUrl>
+          <IISUrl>http://localhost:18542/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
