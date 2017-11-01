@@ -100,6 +100,7 @@
   <ItemGroup>
     <Content Include="FrmCompareValidator.aspx" />
     <Content Include="FrmCustomValidator.aspx" />
+    <Content Include="FrmDropDownListRequiredFieldValidator.aspx" />
     <Content Include="FrmRegularExpressionValidator.aspx" />
     <Content Include="FrmValidationSummary.aspx" />
     <Content Include="packages.config" />
@@ -142,6 +143,13 @@
     </Compile>
     <Compile Include="FrmCustomValidator.aspx.designer.cs">
       <DependentUpon>FrmCustomValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDropDownListRequiredFieldValidator.aspx.cs">
+      <DependentUpon>FrmDropDownListRequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmDropDownListRequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>FrmDropDownListRequiredFieldValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmRegularExpressionValidator.aspx.cs">
       <DependentUpon>FrmRegularExpressionValidator.aspx</DependentUpon>
