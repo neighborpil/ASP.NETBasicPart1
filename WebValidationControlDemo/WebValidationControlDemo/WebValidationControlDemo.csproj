@@ -98,6 +98,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmCheckBoxRequiredValidator.aspx" />
     <Content Include="FrmCompareValidator.aspx" />
     <Content Include="FrmCustomValidator.aspx" />
     <Content Include="FrmDropDownListRequiredFieldValidator.aspx" />
@@ -130,6 +131,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCheckBoxRequiredValidator.aspx.cs">
+      <DependentUpon>FrmCheckBoxRequiredValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCheckBoxRequiredValidator.aspx.designer.cs">
+      <DependentUpon>FrmCheckBoxRequiredValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmCompareValidator.aspx.cs">
       <DependentUpon>FrmCompareValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
