@@ -18,7 +18,6 @@
         }
     </style>
 </head>
-<%--5-3강 12분까지 봤음--%>
 <body>
     <form id="form1" runat="server">
         <div class="container">
