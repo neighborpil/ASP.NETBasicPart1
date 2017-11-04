@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CatalogUserControl.ascx" />
+    <Content Include="CategoryUserControl.ascx" />
+    <Content Include="CopyRightUserControl.ascx" />
+    <Content Include="NavigatorUserControl.ascx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -131,6 +135,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogUserControl.ascx.cs">
+      <DependentUpon>CatalogUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CatalogUserControl.ascx.designer.cs">
+      <DependentUpon>CatalogUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryUserControl.ascx.cs">
+      <DependentUpon>CategoryUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryUserControl.ascx.designer.cs">
+      <DependentUpon>CategoryUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CopyRightUserControl.ascx.cs">
+      <DependentUpon>CopyRightUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CopyRightUserControl.ascx.designer.cs">
+      <DependentUpon>CopyRightUserControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="FrmUserControl.aspx.cs">
       <DependentUpon>FrmUserControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +165,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorUserControl.ascx.cs">
+      <DependentUpon>NavigatorUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavigatorUserControl.ascx.designer.cs">
+      <DependentUpon>NavigatorUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
