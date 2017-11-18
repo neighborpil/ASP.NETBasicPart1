@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DevTheme
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class FrmBlueSkin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

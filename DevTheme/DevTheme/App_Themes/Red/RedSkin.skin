@@ -1,2 +1,6 @@
 ﻿<asp:Button runat="server" BackColor="Yellow" BorderColor="Red" 
 BorderStyle="Dashed" BorderWidth="1px" ForeColor="Red" />
+
+<asp:Button runat="server" BackColor="Yellow" BorderColor="Red" 
+    BorderStyle="Dashed" BorderWidth="1px" ForeColor="Red" 
+    Font-Bold="True" SkinID="SkinBold"/>

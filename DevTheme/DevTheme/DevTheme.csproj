@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Blue\BlueSkin.css" />
+    <Content Include="App_Themes\Red\RedSkin.css" />
+    <Content Include="FrmBlueSkin.aspx" />
+    <Content Include="FrmRedSkin.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,23 +114,30 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBlueSkin.aspx.cs">
+      <DependentUpon>FrmBlueSkin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmBlueSkin.aspx.designer.cs">
+      <DependentUpon>FrmBlueSkin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRedSkin.aspx.cs">
+      <DependentUpon>FrmRedSkin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRedSkin.aspx.designer.cs">
+      <DependentUpon>FrmRedSkin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\Black\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
