@@ -97,6 +97,7 @@
   <ItemGroup>
     <Content Include="FrmMenu.aspx" />
     <Content Include="FrmSitemapPath.aspx" />
+    <Content Include="FrmTreeView.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -139,6 +140,13 @@
     </Compile>
     <Compile Include="FrmSitemapPath.aspx.designer.cs">
       <DependentUpon>FrmSitemapPath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTreeView.aspx.cs">
+      <DependentUpon>FrmTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmTreeView.aspx.designer.cs">
+      <DependentUpon>FrmTreeView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
