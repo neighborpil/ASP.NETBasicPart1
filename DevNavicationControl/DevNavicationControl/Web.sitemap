@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="Default.aspx" title="홈(Home)"  description="처음으로">
-    <siteMapNode url="Introduce.aspx" title="사이트 소개(Introduce)"
+    <siteMapNode url="FrmSitemapPath.aspx" title="사이트 소개(Introduce)"
                  description="사이트 소개(Introduce)" />
     <siteMapNode url="Lecture.aspx" title="강의실(Lecture)"
                  description="강의실(Lecture)">
